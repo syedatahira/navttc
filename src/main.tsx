@@ -18,6 +18,8 @@ import Product from './pages/product/index.tsx';
 import Dashboard from './pages/dashboard/index.tsx';
 import Users from './pages/dashboard/users/index.tsx';
 import DashboardProducts from './pages/dashboard/products/index.tsx';
+import Orders from './pages/dashboard/order/index.tsx';
+
 
 const router = createBrowserRouter([
   {
@@ -69,7 +71,7 @@ const router = createBrowserRouter([
           },
           {
             path: "orders",
-            element: <div>Orders</div>
+            element: <Orders/>
           },
           {
             path: "inventory",
